@@ -1,0 +1,14 @@
+    /* In this task, you need to use one of the special values we looked at in the Controlling inheritance section to write a declaration in a new rule that will reset the background color back to white, without using an actual color value. */
+    #outer div ul .nav a {
+      background-color: blue;
+      padding: 5px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    
+    div div li a {
+      color: yellow;
+    }               
+    #outer div ul .nav a {
+       background-color: unset;
+    }
