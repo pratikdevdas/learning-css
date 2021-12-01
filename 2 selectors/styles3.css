@@ -1,1 +1,66 @@
+a{
+    color: orange;
+}
 
+a:visited{
+    color: green;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+p:first-child {
+    font-size: 150%;
+}
+
+.container p:first-child::first-line{
+    color: red;
+}
+
+
+tr{
+    /* background-color: black; */
+}
+
+tr + tr  {
+    background-color: black;
+    color: white;
+}
+tr + tr + tr {
+    background-color: white;
+    color: black;
+
+}
+
+tr + tr + tr + tr {
+    background-color: black;
+    color: white;
+}
+
+tr + tr + tr + tr + tr{
+    background-color: white;
+    color: black;
+}
+
+
+tr + tr + tr + tr + tr + tr{
+    background-color: black;
+    color: white;
+}
+
+
+table tr:nth-child(even){
+    background-color: black;
+    color: white;
+}
+
+
+table tr:nth-child(odd){
+    background-color: white;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+}
