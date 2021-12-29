@@ -1,0 +1,21 @@
+/* was
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+demostrating block inline properties
+     */
+
+.box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    inline-size: 200px;
+    block-size: 100px;
+  }
