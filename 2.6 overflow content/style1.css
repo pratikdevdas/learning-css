@@ -1,0 +1,9 @@
+.box {
+    border: 5px solid black;
+    padding: 1em;
+    height: 200px;
+    width: 300px;
+    /* sets scroll on y axis */
+  overflow-y: scroll;
+  }
+      
