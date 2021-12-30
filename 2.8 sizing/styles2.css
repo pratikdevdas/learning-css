@@ -1,0 +1,15 @@
+/* was
+* {
+  box-sizing: border-box;
+}
+.inner {
+  
+} */
+
+* {
+    box-sizing: border-box;
+  }
+  .inner {
+   width:60%; 
+  }
+      
