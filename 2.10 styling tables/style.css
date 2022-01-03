@@ -1,0 +1,46 @@
+
+table{
+    border-collapse:collapse;
+    width: 100%;
+    table-layout: fixed;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    } 
+    
+    thead tr th:nth-child(2){
+    text-align: right;
+    }
+    
+    thead tr th:nth-child(3){
+    text-align: right;
+    }
+    
+    tbody tr td:nth-child(2){
+    text-align: right;
+    }
+    tbody tr td:nth-child(3){
+    text-align: right;
+    }
+    
+     table tr:nth-child(odd){
+        background-color: lightgrey;
+    }
+    thead tr th{
+    background-color: white;
+    }
+    
+    tr th{
+    text-align: left;
+    }
+    
+    tfoot{
+    border-top: 1px solid grey;
+    }
+    tfoot tr th{
+    background-color: white;
+    text-align: right;
+    }
+    
+    tfoot tr td{
+    background-color: white;
+    }
