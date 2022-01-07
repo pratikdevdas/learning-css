@@ -1,0 +1,70 @@
+  *{
+   box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background: #ccc;
+  }
+  
+  article {
+    width: 210mm;
+    height: 297mm;
+    margin: 20px auto;
+    position: relative;
+    background-color: white;
+    border-top: 1mm solid red ;
+    border-bottom: 1mm solid red ;
+
+  }
+  
+  address {
+    position: absolute;
+    bottom: 8mm;
+    right: 20mm;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 12mm;
+    left: 20mm;
+    width: 128px;
+    height: 128px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 44px 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-image: url(logo.png);
+    filter: drop-shadow(0px 10px 2px black);
+  }
+  
+  /* Your CSS below here */
+
+.header-lh{
+    height: 142px;
+    /* linear gradient can have two or multiple properties https://christinatruong.medium.com/how-to-add-a-css-gradient-overlay-to-a-background-image-170216435f65*/
+    background-image:linear-gradient(0deg, rgba(219, 219, 219, 0.2) 0%, rgba(49, 49, 49, 0.5) 100%), url(./top-image.png); /* wont support older browser */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+  }
+
+  .footer-lh{
+    height: 139px;
+    
+    background-image:linear-gradient(0deg, rgba(27, 23, 23, 0.2) 0%, rgba(196, 196, 196, 0.2) 100%), url(./bottom-image.png); /* wont support older browser */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .content{
+      height: 836px;
+  }
