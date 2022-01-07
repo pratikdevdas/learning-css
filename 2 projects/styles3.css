@@ -1,0 +1,18 @@
+html {
+    font-family: sans-serif;
+  }
+
+  p{
+      width: 200px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-size: 1.2em;
+      color: red;
+      text-shadow: rgb(0, 0, 0) 1px 1px 10px;
+      border-radius: 10px;
+      background: rgb(255,255,255);
+      border: 1px solid red;
+    background: linear-gradient(136deg , rgba(218, 160, 160, 0.494) 0%, rgb(6 6 6 / 64%) 100%), red;
+    box-shadow: 10px 11px 31px 9px rgba(0,0,0,0.75);
+  }
