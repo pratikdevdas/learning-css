@@ -7,6 +7,7 @@
     <style>
       body {
         width: 500px;
+        height: 1400px;
         margin: 0 auto;
       }
 
@@ -16,11 +17,27 @@
         padding: 10px;
         margin: 10px;
       }
-
       span {
         background: red;
         border: 1px solid black;
       }
+      h1{
+        position: fixed;
+        top: 0;
+        width: 500pz;
+        margin-top:0 ;
+        background:white ;
+        padding: 10px;
+      }
+      p:nth-of-type(1){
+        margin-top: 60px;
+      }
+      .positioned {
+  position: sticky;
+  top: 30px;
+  left: 30px;
+}
+
     </style>
   </head>
   <body>
@@ -28,7 +45,7 @@
 
     <p>I am a basic block level element. My adjacent block level elements sit on new lines below me.</p>
 
-    <p>By default we span 100% of the width of our parent element, and our height is as tall as our child content. Our total width and height is our content + padding + border width/height.</p>
+    <p class="positioned">By default we span 100% of the width of our parent element, and our height is as tall as our child content. Our total width and height is our content + padding + border width/height.</p>
 
     <p>We are separated by our margins. Because of margin collapsing, we are separated by the width of one of our margins, not both.</p>
 
